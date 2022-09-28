@@ -14,7 +14,7 @@ public class OrderItem {
 
     public double subTotal(){
         double total = 0.0;
-        total = this.getQuantity() * this.getProduct().getPrice(); 
+        total = this.getQuantity() * this.getPrice(); 
         return total;
     }
 
